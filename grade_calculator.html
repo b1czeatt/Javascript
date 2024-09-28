@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="grade_calculator.css">
+</head>
+<body>
+    <h1>Letter Grade Calculator</h1>
+    <p>Enter your numeric score to find out your letter grade:</p>
+    <input type="number" id="score" placeholder="Enter score (0-100)" min="0" max="100">
+    <button onclick="calculateGrade()">Calculate Grade</button>
+    <div class="result">
+        <p id="grade"></p>
+    </div>
+
+    <script src="grade_calculator.js"></script>
+</body>
+</html>
